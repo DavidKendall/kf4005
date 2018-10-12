@@ -58,3 +58,8 @@ right_links:
     url: https://github.com/davidkendall/kf4005
 
 repo: https://github.com/davidkendall/kf4005
+
+description: tagline
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
