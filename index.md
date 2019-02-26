@@ -39,18 +39,17 @@ a variety of OS services.
 |---|:---|
 |Module Tutor &nbsp;  | [David Kendall](http://computing.northumbria.ac.uk/staff/cgdk2)|
 |Lecturer      | [Alun Moon](https://www.northumbria.ac.uk/about-us/our-staff/m/alun-moon/)|
-|Lecturer      | [Kezhi Wang](https://sites.google.com/site/drkezhiwang/)|
 
 
 ## Teaching Arrangements
 
 |   |    |
 |---|:---|
-**Lecture (Block B)** &nbsp;| Mon 11.00 - 12.00 ELA 102a
-**Lecture (Block A)** | Tue 10.00 - 11.00 ELA 002
-**Lab/Seminar**       | Tue 15.00 - 17.00 PAN S3
-**Lab/Seminar**       | Wed 09.00 - 11.00 PAN F2/F3
-**Lab/Seminar**       | Fri 11.00 - 13.00 PB S3
+**Lecture 1** &nbsp;| Mon 12.00 - 13.00 NBD 252
+**Lecture 2** | Wed 09.00 - 10.00 NBD 442
+**Lab/Seminar**       | Tue 11.00-13.00 CIS 201
+**Lab/Seminar**       | Wed 13.00-15.00 CIS 202
+
 
 <p class="text-info">
 You should attend <em>both</em> lecture sessions and <em>one</em> of the
@@ -89,20 +88,20 @@ this part of the module for this year. These arrangements are subject to
 change during the course of the module.
 
 
-| Week   | W/c   | Lecture A   | Lecture B   | Practical   |
+| Week   | W/c   | Lecture 1   | Lecture 2   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 15-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to lab environment and tools](L01.html)
-**2** | 22-Jan &nbsp; | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)  | [Learning the Linux command line](L02.html)
-**3** | 29-Jan &nbsp; | [Process concept]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Writing shell scripts](L03.html)
-**4** | 05-Feb &nbsp; | [Process scheduling]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions. Working with processes](L04.html)
-**5** | 12-Feb &nbsp; | [Memory management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Linux IPC]({{site.baseurl}}{{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Linux IPC: Signals and pipes](L05.html)
-**6** | 19-Feb &nbsp; | [Memory management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX threads]({{site.baseurl}}{{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Threads; basic memory management in the shell](L06.html)
-**7** | 26-Feb &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A07.pdf) | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B07.pdf) | [SQL practical](L07.html) &nbsp; <br/> Introduction to the assignment
-**8** | 05-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [Working with file systems](L08.html)
-**9** | 12-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Shell - text processing](L09.html)
-**10** | 19-Mar &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Linux protection and security](L10.html)
-**11** | 16-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Assignment review](L11.html)
-**12** | 23-Apr &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | [Practical assignment completion](L12.html)
+**1** | 28-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to lab environment and tools](L01.html)
+**2** | 04-Feb &nbsp; | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Learning the Linux command line](L02.html)
+**3** | 11-Feb &nbsp; | [Shell scripts]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Process concept]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) | [Writing shell scripts](L03.html)
+**4** | 18-Feb &nbsp; | [Process scheduling]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions](L04.html)
+**5** | 25-Feb &nbsp; | [Memory management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Linux IPC]({{site.baseurl}}{{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Working with processes](L05.html)
+**6** | 04-Mar &nbsp; | [Memory management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX threads]({{site.baseurl}}{{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Linux IPC: Signals and Pipes](L06.html)
+**7** | 11-Mar &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A07.pdf) | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B07.pdf) | [Threads; basic memory management in the shell](L07.html) &nbsp; <br/> Introduction to the assignment
+**8** | 18-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [SQL practical](L08.html)
+**9** | 25-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Working with file systems](L09.html)
+**10** | 01-Apr &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Shell - text processing](L10.html)
+**11** | 29-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Assignment review](L11.html)
+**12** | 06-May &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | Practical assignment completion
 
 <br/>
 
@@ -132,8 +131,8 @@ summative assessment.
 Formal written feedback will be provided on summative assessment. The assignment
 will assess all of the MLOs.
 
-<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i
-class="icon-upload-alt"></i>Download Assignment Specification</a>
+<!--<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i-->
+<!--class="icon-upload-alt"></i>Download Assignment Specification</a>-->
 
 ## Reading List
 
@@ -163,15 +162,18 @@ problems and their solution using semaphores.
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
 A gentle introduction to programming in C. I think it's a better starting
 point than the much-recommended Kernighan and Ritchie.
-
   - **[PRI02]** Prinz, P., [C Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Peter-Prinz/dp/0596004362/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1285570456&amp;sr=1-1), O'Reilly, 2002 <br/>
 A concise C reference. Very cheap. Less than a fiver the last time I
 looked. I suggest you buy a copy and read it from cover to cover.
+  - **[BBD91]**  Banahan, M., Brady, D.  and Doran, M., [The C Book](http://publications.gbdirect.co.uk/c_book/), Currently out of print, 1991. <br/>
+Although this book is no longer in print, it remains a good introduction to the C language.
+There's a [free pdf version](http://publications.gbdirect.co.uk/c_book/thecbook.pdf)
+available ([local copy]({{site.baseurl}}{{site.raurl}}/thecbook.pdf)).
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
   - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
-  - [C Programming](http://www.imada.sdu.dk/~svalle/courses/dm14-2005/mirror/c/) <br/>
-An online course on C Programming from the University of Strathclyde.
+  - [C Programming](http://kom.aau.dk/~jdn/edu/doc/c/tutorials/c-course-strathclyde/) <br/>
+An online course on C Programming, originally from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
 sections cover more advanced material.
